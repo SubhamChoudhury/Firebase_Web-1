@@ -2,8 +2,9 @@ import React from "react";
 import Navbar  from "./navbar";
 import Header from "./Header";
 import HowItWorks from "./HowItWorks";
-import AboutUs from "./API/aboutUs";
+import AboutUs from "./API/AboutUs";
 import Services from "./Services";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
   <HowItWorks/>
   <AboutUs/>
   <Services/>
+  <Contact/>
   </>
   );
 }
