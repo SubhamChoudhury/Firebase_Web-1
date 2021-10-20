@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import howToUseApp from "./HowToUse";
+import howToUseApp from "./API/HowToUse";
 
 const AboutUs = () => {
     const [aboutData, setAboutData] = useState(howToUseApp);
