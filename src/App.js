@@ -2,7 +2,8 @@ import React from "react";
 import Navbar  from "./navbar";
 import Header from "./Header";
 import HowItWorks from "./HowItWorks";
-import AboutUs from "./API/AboutUs";
+import AboutUs from "./API/aboutUs";
+import Services from "./Services";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
   <Header/>
   <HowItWorks/>
   <AboutUs/>
+  <Services/>
   </>
   );
 }
