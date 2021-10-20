@@ -5,6 +5,7 @@ import HowItWorks from "./HowItWorks";
 import AboutUs from "./API/AboutUs";
 import Services from "./Services";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
   <AboutUs/>
   <Services/>
   <Contact/>
+  <Footer/>
   </>
   );
 }
