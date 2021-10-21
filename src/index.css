@@ -558,4 +558,15 @@ footer .main-hero-para {
   .container-xxl {
     max-width: 1400px;
   }
+  @media (max-width: 998px) {
+    .navbar .navbar-collapse{
+      margin-top: 1rem;
+      background-color: #fff;
+      padding: 2rem 1rem;
+    }
+    .input-group .btn-style{
+      font-size: 1.2rem;
+    }
+    
+  }
 }
